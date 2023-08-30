@@ -3,8 +3,8 @@ pandas
 klepto
 networkx
 sqlparse
+psycopg2
 moz_sql_parser
-psycopg2-binary
 matplotlib
 grandalf
 xgboost

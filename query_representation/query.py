@@ -66,7 +66,7 @@ def load_qrep(fn):
         query = pickle.load(f)
 
     query["subset_graph"] = \
-            nx.OrderedDiGraph(json_graph.adjacency_graph(query["subset_graph"]))
+            nx.adjacency_graph(query["subset_graph"])
     query["join_graph"] = json_graph.adjacency_graph(query["join_graph"])
 
     return query
